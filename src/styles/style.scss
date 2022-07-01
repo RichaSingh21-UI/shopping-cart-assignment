@@ -1,0 +1,108 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar-header {
+    box-shadow: 0px 1px 8px 0px rgb(0, 0, 0, 0.25);
+}
+
+.navigation-head {
+    height: 90px;
+}
+
+.container-style {
+    height: 100%;
+    margin: 0 75px;
+}
+
+.home-logo {
+    padding-right: 50px;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+}
+
+.home-links {
+    padding-top: 45px;
+}
+
+.cart {
+
+    background-color:#fff;
+    color:#212529;
+    font-size:30px;
+    padding:5px;
+    border-radius:4px;
+    }    
+    .cartAmount {
+    font-size:16px;
+    color: black;
+    display: inline;
+    padding:3px;
+    border-radius:3px;
+    }
+.copy-right {
+    margin-top: 4%;
+    background-color: rgba(204, 198, 198, 0.776);
+}
+
+.form-input {
+    display: inline;
+    width: 100%;
+}
+
+.form-control-lg {
+    border-radius: initial !important;
+}
+
+.form-attribute:focus-within .form-label{
+    color: rgb(18, 181, 175);
+  }
+  .SignInBtn {
+    border: none;
+    outline: 0;
+    background-color: rgba(246, 241, 241, 0.388);
+  }
+
+ input[type="text"],
+ input[type="email"],
+ input[type="password"] {
+    border: none;
+    border-bottom: 2px solid rgba(204, 198, 198, 0.776);
+    outline: 0;
+    font-size: 12px;  
+    &:focus {
+      border: none;
+      outline: 0;
+      border-bottom: 2px solid rgb(18, 181, 175);
+    }    
+      &:invalid:focus:not(:placeholder-shown) {
+        // Show the more robust requirement instructions below.
+        & ~ .requirements {
+          max-height: 200px;
+          padding: 0 30px 20px 50px;
+        }
+      }
+
+  }
+      
+  .loginForm {
+    margin-top: 24px;
+  }
+
+  .requirements {
+    padding: 0 30px 0 50px;
+    color: #999;
+    max-height: 0;
+    transition: 0.28s;
+    overflow: hidden;
+    font-style: italic;
+  }
+
+  .form-container {
+    margin-top: 50px;
+  }
+  
+  
